@@ -5,9 +5,20 @@ module.exports = function(app) {
         
         res.render('index.ejs');  
     });
-    app.get('/test',(req,res)=>{ 
-        
-        res.render('test.ejs');  
+    app.get('/about',(req,res)=>{ 
+  
+        res.render('about.ejs');  
     });
-
+    app.get('/contact',(req,res)=>{ 
+        
+        res.render('contact.ejs');  
+    });
+    app.get('/services',(req,res)=>{ 
+        
+        res.render('services.ejs');  
+    });
+    app.get('/projects',(req,res)=>{ 
+        
+        res.render('projects.ejs');  
+    });
  }
